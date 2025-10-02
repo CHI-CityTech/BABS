@@ -1,4 +1,4 @@
-# [Project Title]
+# Bio-Aware Blended Spaces (BABS)
 
 <!-- Replace [Project Title] with your actual research project name -->
 
