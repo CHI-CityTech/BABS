@@ -1,8 +1,8 @@
-# [Bio-Aware Blended Spaces (BABS)]
+# [Project Title]
 
+<!-- Replace [Project Title] with your actual research project name -->
 
-## Thesis
-The goal of this project stage will be to investigate the translation of biosensory input from cognitive agents (human) to audiovisual output.
+## Project Overview
 
 **Research Focus**: [Brief description of your research question or project goals]
 
