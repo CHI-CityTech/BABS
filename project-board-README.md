@@ -170,7 +170,7 @@ To test your project board setup, create these example issues:
      - [ ] Seeing live data flow in a normalized format, ready for mapping
   - **Due:** 2025-10-24
 
-3. **Title:** `Milestone: MAX/MSP Patch Development
+3. **Title:** `Milestone: MAX/MSP Patch Development`
    - **Phase:** `03  
    - **Goal:** Biosignal to Audiovisual Translation
    - **Criteria:** 
@@ -178,7 +178,7 @@ To test your project board setup, create these example issues:
      - [ ] Responsiveness, even if the mapping is simple or rough
  - **Due:** 2025-11-07
     
-4. **Title:** `Milestone: Projection Sandbox Demo
+4. **Title:** `Milestone: Projection Sandbox Demo`
    - **Phase:** `04  
    - **Goal:** Installation and demonstration of single-surface projection environment
    - **Criteria:** 
@@ -187,7 +187,7 @@ To test your project board setup, create these example issues:
      - [ ] Linking sensor → data → audiovisual projection
  - **Due:** 2025-11-21
     
-5. **Title:** `Milestone: Refinement
+5. **Title:** `Milestone: Refinement`
    - **Phase:** `05 
    - **Goal:** Pipeline refinement for stability and reliability
    - **Criteria:** 
@@ -196,7 +196,7 @@ To test your project board setup, create these example issues:
      - [ ] Consolidates the prototype into a smoother, more predictable demo system
  - **Due:** 2025-11-28
 
-6. **Title:** `Milestone: Documentation & Showcase
+6. **Title:** `Milestone: Documentation & Showcase`
    - **Phase:** `06 
    - **Goal:** Documentation of mediation pathways and MVP Showcase
    - **Criteria:** 
