@@ -4,7 +4,7 @@
 
 ---
 
-# CHI Research Project Board Template
+# BABS Project Research Board
 
 <!-- 
 🔧 CUSTOMIZATION INSTRUCTIONS:
