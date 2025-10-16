@@ -134,10 +134,7 @@ Tag each issue with the appropriate research phase:
 - **Cross-review** - Team members can review each other's work
 - **Knowledge sharing** - Comment on issues to share insights
 
-## Sample Test Issues
-
 <!-- 
-📝 REPLACE THIS SECTION:
 The examples below use "AI Bias in Hiring" as a sample research topic.
 Replace ALL of these examples with issues from YOUR actual research project.
 
@@ -152,7 +149,7 @@ Keep the same FORMAT but change the CONTENT to match your project.
 
 To test your project board setup, create these example issues:
 
-### **Milestone Examples:**
+### **Milestones:**
 1. **Title:** `Milestone:  Sensor Setup and Calibration`
    - **Phase:** `01-research`
    - **Goal:** Identification and Calibration of Sensors
@@ -204,38 +201,6 @@ To test your project board setup, create these example issues:
      - [ ] Culminates in a final MVP showcase that demonstrates successful bio → environment transformation
  - **Due:** 2025-12-05
     
-### **Research Log Examples:**
-7. **Title:** `Research Log: 2024-W39`
-   - **Phase:** `01-speculate`
-   - **Summary:** Initial research question formation and hypothesis development
-   - **Sources:** DOI links to 5 foundational papers on AI bias
-   - **Decisions:** Focus on hiring bias, use NLP techniques for detection
-
-8. **Title:** `Research Log: 2024-W42`
-   - **Phase:** `04-make`
-   - **Summary:** Implemented basic NLP pipeline, tested on sample dataset
-   - **Sources:** Scikit-learn documentation, spaCy tutorials
-   - **Decisions:** Use BERT embeddings, need larger training dataset
-
-### **AI Collaboration Examples:**
-9. **Title:** `AI Collab: Literature Search Strategy`
-   - **Phase:** `02-research`
-   - **Prompts:** "Help me identify key search terms for AI hiring bias research"
-   - **Output:** Generated 20+ academic search terms and Boolean queries
-   - **Evaluation:** 85% of terms were relevant, missing some domain-specific terminology
-
-10. **Title:** `AI Collab: Code Review and Documentation`
-   - **Phase:** `05-publish`
-   - **Prompts:** "Review this Python script for bias detection and suggest improvements"
-   - **Output:** Identified 3 bugs, suggested 5 performance optimizations
-   - **Evaluation:** Recommendations were accurate, saved 2 hours of debugging
-
-### **Bug Report Example:**
-11. **Title:** `Bug: Dataset loading fails with Unicode errors`
-   - **What happened:** CSV import crashes when processing job descriptions with special characters
-   - **Expected:** Should handle all UTF-8 characters gracefully
-   - **Repro Steps:** Load jobs_dataset.csv, process descriptions with encoding='utf-8'
-
 ## Integration with CHI Research Ecosystem
 
 This individual project board integrates with the broader CHI research management system:
@@ -304,6 +269,3 @@ For questions about this project board template:
 - Check CHI methodology resources
 
 ---
-**Template Version:** 1.0  
-**Last Updated:** September 2025  
-**Maintained by:** CHI Center for Holistic Integration, City Tech
