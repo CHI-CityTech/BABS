@@ -33,7 +33,8 @@ DELETE ENTIRELY:
 
 ## Overview
 
-This project board template supports the **CHI (Center for Holistic Integration) research methodology** using a structured Kanban workflow combined with SRDMPA phase tracking through issue labels.
+This project covers the Fall 2025 efforts to perform precedent research and develop a design for the deployment of a proof of concept Biological system in which computational intelligence can become aware of the biological state of physical cognitive agents within the blended environment. The goal of this project stage will be to investigate the translation of biosensory input from cognitive agents (human) to audiovisual output.
+
 
 ## Board Structure
 
@@ -155,52 +156,85 @@ Keep the same FORMAT but change the CONTENT to match your project.
 To test your project board setup, create these example issues:
 
 ### **Milestone Examples:**
-1. **Title:** `Milestone: Complete AI Bias Literature Survey`
-   - **Phase:** `02-research`
-   - **Goal:** Comprehensive review of AI bias research from 2020-2024
-   - **Acceptance Criteria:** 
-     - [ ] 25+ peer-reviewed papers reviewed
-     - [ ] Summary matrix created with bias types and detection methods
-     - [ ] Key gaps identified for research focus
-   - **Due:** 2024-10-15
+1. **Title:** `Milestone:  Sensor Setup and Calibration`
+   - **Phase:** `01-research`
+   - **Goal:** Identification and Calibration of Sensors
+   - **Criteria:** 
+     - [ ] Identifying which biosensors (consumer, research, primitive, or camera-based) will be trialed for the MVP
+     - [ ] Unboxing, testing, and calibrating sensors
+     - [ ] Ensuring at least one source can reliably produce usable data streams
+   - **Due:** 2025-10-10
 
-2. **Title:** `Milestone: Build Bias Detection Prototype`
-   - **Phase:** `04-make`  
-   - **Goal:** Working prototype that detects gender bias in job descriptions
-   - **Acceptance Criteria:**
-     - [ ] Process 100+ job postings
-     - [ ] Generate bias confidence scores
-     - [ ] Demo runs without errors
-     - [ ] Basic web interface functional
+2. **Title:** `Milestone: Pipeline Integration`
+   - **Phase:** `02-make`  
+   - **Goal:** Software to sensor mediation pathway establishment
+   - **Criteria:**
+     - [ ] Establishing the mediation pathway from sensor to software using LSL, OSC, or BLE
+     - [ ] Seeing live data flow in a normalized format, ready for mapping
+  - **Due:** 2025-10-24
 
+3. **Title:** `Milestone: MAX/MSP Patch Development
+- **Phase:** `03  
+   - **Goal:** Biosignal to Audiovisual Translation
+   - **Criteria:** 
+     - [ ] Translating raw biosignal data into audiovisual events using Max/MSP and Jitter
+     - [ ] Responsiveness, even if the mapping is simple or rough
+     - **Due:** 2025-11-07
+    
+4. **Title:** `Milestone: Projection Sandbox Demo
+- **Phase:** `04  
+   - **Goal:** Installation and demonstration of single-surface projection environment
+   - **Criteria:** 
+     - [ ] Installing the single-surface projection environment
+     - [ ] Visible demonstration of a bio-aware blended mediation pathway
+     - [ ] Linking sensor → data → audiovisual projection
+     - **Due:** 2025-11-21
+    
+5. **Title:** `Milestone: Refinement
+- **Phase:** `05 
+   - **Goal:** Pipeline refinement for stability and reliability
+   - **Criteria:** 
+     - [ ] Focuses on improving the stability, latency, and reliability of the pipeline
+     - [ ] Visible demonstration of a bio-aware blended mediation pathway
+     - [ ] Consolidates the prototype into a smoother, more predictable demo system
+ - **Due:** 2025-11-28
+
+6. **Title:** `Milestone: Documentation & Showcase
+- **Phase:** `06 
+   - **Goal:** Documentation of mediation pathways and MVP Showcase
+   - **Criteria:** 
+     - [ ] Produces written guides, troubleshooting notes, and diagrams of mediation pathways
+     - [ ] Culminates in a final MVP showcase that demonstrates successful bio → environment transformation
+ - **Due:** 2025-12-05
+    
 ### **Research Log Examples:**
-3. **Title:** `Research Log: 2024-W39`
+7. **Title:** `Research Log: 2024-W39`
    - **Phase:** `01-speculate`
    - **Summary:** Initial research question formation and hypothesis development
    - **Sources:** DOI links to 5 foundational papers on AI bias
    - **Decisions:** Focus on hiring bias, use NLP techniques for detection
 
-4. **Title:** `Research Log: 2024-W42`
+8. **Title:** `Research Log: 2024-W42`
    - **Phase:** `04-make`
    - **Summary:** Implemented basic NLP pipeline, tested on sample dataset
    - **Sources:** Scikit-learn documentation, spaCy tutorials
    - **Decisions:** Use BERT embeddings, need larger training dataset
 
 ### **AI Collaboration Examples:**
-5. **Title:** `AI Collab: Literature Search Strategy`
+9. **Title:** `AI Collab: Literature Search Strategy`
    - **Phase:** `02-research`
    - **Prompts:** "Help me identify key search terms for AI hiring bias research"
    - **Output:** Generated 20+ academic search terms and Boolean queries
    - **Evaluation:** 85% of terms were relevant, missing some domain-specific terminology
 
-6. **Title:** `AI Collab: Code Review and Documentation`
+10. **Title:** `AI Collab: Code Review and Documentation`
    - **Phase:** `05-publish`
    - **Prompts:** "Review this Python script for bias detection and suggest improvements"
    - **Output:** Identified 3 bugs, suggested 5 performance optimizations
    - **Evaluation:** Recommendations were accurate, saved 2 hours of debugging
 
 ### **Bug Report Example:**
-7. **Title:** `Bug: Dataset loading fails with Unicode errors`
+11. **Title:** `Bug: Dataset loading fails with Unicode errors`
    - **What happened:** CSV import crashes when processing job descriptions with special characters
    - **Expected:** Should handle all UTF-8 characters gracefully
    - **Repro Steps:** Load jobs_dataset.csv, process descriptions with encoding='utf-8'
