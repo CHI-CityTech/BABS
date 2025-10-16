@@ -1,6 +1,3 @@
-# 📝 EDIT THIS README UPON PROJECT CREATION
-
-**🚨 IMPORTANT: This is a template README. Customize it for your specific research project before using.**
 
 ---
 
