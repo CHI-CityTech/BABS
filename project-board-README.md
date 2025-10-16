@@ -176,7 +176,7 @@ To test your project board setup, create these example issues:
    - **Criteria:** 
      - [ ] Translating raw biosignal data into audiovisual events using Max/MSP and Jitter
      - [ ] Responsiveness, even if the mapping is simple or rough
-     - **Due:** 2025-11-07
+ - **Due:** 2025-11-07
     
 4. **Title:** `Milestone: Projection Sandbox Demo
 - **Phase:** `04  
@@ -185,7 +185,7 @@ To test your project board setup, create these example issues:
      - [ ] Installing the single-surface projection environment
      - [ ] Visible demonstration of a bio-aware blended mediation pathway
      - [ ] Linking sensor → data → audiovisual projection
-     - **Due:** 2025-11-21
+ - **Due:** 2025-11-21
     
 5. **Title:** `Milestone: Refinement
 - **Phase:** `05 
