@@ -171,7 +171,7 @@ To test your project board setup, create these example issues:
   - **Due:** 2025-10-24
 
 3. **Title:** `Milestone: MAX/MSP Patch Development
-- **Phase:** `03  
+   - **Phase:** `03  
    - **Goal:** Biosignal to Audiovisual Translation
    - **Criteria:** 
      - [ ] Translating raw biosignal data into audiovisual events using Max/MSP and Jitter
@@ -179,7 +179,7 @@ To test your project board setup, create these example issues:
  - **Due:** 2025-11-07
     
 4. **Title:** `Milestone: Projection Sandbox Demo
-- **Phase:** `04  
+   - **Phase:** `04  
    - **Goal:** Installation and demonstration of single-surface projection environment
    - **Criteria:** 
      - [ ] Installing the single-surface projection environment
@@ -188,7 +188,7 @@ To test your project board setup, create these example issues:
  - **Due:** 2025-11-21
     
 5. **Title:** `Milestone: Refinement
-- **Phase:** `05 
+   - **Phase:** `05 
    - **Goal:** Pipeline refinement for stability and reliability
    - **Criteria:** 
      - [ ] Focuses on improving the stability, latency, and reliability of the pipeline
@@ -197,7 +197,7 @@ To test your project board setup, create these example issues:
  - **Due:** 2025-11-28
 
 6. **Title:** `Milestone: Documentation & Showcase
-- **Phase:** `06 
+   - **Phase:** `06 
    - **Goal:** Documentation of mediation pathways and MVP Showcase
    - **Criteria:** 
      - [ ] Produces written guides, troubleshooting notes, and diagrams of mediation pathways
