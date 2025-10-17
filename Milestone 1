@@ -1,6 +1,6 @@
 name: Milestone
-description: Define a concrete deliverable and acceptance criteria for your research project
-title: "Milestone: <short name>"
+description: Biosensor Identification and Calibration
+title: "Milestone: <Sensor Setup and Calibration>"
 labels: ["milestone"]
 body:
   - type: dropdown
