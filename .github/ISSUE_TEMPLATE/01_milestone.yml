@@ -35,7 +35,7 @@ body:
   - type: input
     id: due
     attributes:
-      label: Due Date (YYYY-MM-DD)
+      label: Due Date (2025-10-10)
   - type: textarea
     id: risks
     attributes:
