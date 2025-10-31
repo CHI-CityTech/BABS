@@ -20,6 +20,6 @@ Pulse Sensor: Plug-and-play heart-rate sensor for Arduino & OpenBCI. Capable of 
 
 Other Sensors:
 
-[EmotiBit – OpenBCI Shop](https://shop.openbci.com/products/emotibit?variant=45567410274544)
+EmotiBit: Small device that allows you to stream 16+ data streams from the body, including PPG, EDA/GSR, 9-axis IMU, and body temperature.
 
-[All-in-One EmotiBit Bundle – OpenBCI Shop](https://shop.openbci.com/products/all-in-one-emotibit-bundle)
+[EmotiBit – OpenBCI Shop](https://shop.openbci.com/products/emotibit?variant=45567410274544)
