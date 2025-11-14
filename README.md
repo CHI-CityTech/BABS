@@ -1,161 +1,139 @@
-# [Project Title]
+# **Bio-Aware Blended Spaces (BABS)**
 
-<!-- Replace [Project Title] with your actual research project name -->
+*A Meta-Project within the Center for Holistic Integration (CHI)*
 
-## Project Overview
+## **Overview**
 
-**Research Focus**: [Brief description of your research question or project goals]
+**Bio-Aware Blended Spaces (BABS)** is an interdisciplinary research and
+engineering initiative designed to explore how **biosensory data** can
+be transformed into **responsive, immersive environments** through
+defined **mediation pathways**. Built upon the **Balanced Blended Space
+(BBS)** framework and implemented within the **Blended Reality
+Performance System (BRPS)** architecture, BABS connects **human
+physiological expression** and **computational responsiveness** in
+shared physical--virtual spaces.
 
-**CHI Meta-Project Connection**: [List which CHI meta-projects this research contributes to]
-- [ ] META-Balanced-Blended-Space
-- [ ] META-Blended-Shadow-Puppet  
-- [ ] META-Collaborative-AI
-- [ ] META-International-Collaboration
-- [ ] META-Cultural-Popup-Experiences
-- [ ] META-Blended-Reality-Performance-System
-- [ ] Other: [Specify]
+The project demonstrates how **cognitive agents (humans)** and
+**computational agents (AI systems)** can **co-experience and co-shape**
+an environment symmetrically---transforming biosignals such as heart
+rate, EEG, or movement into audiovisual or kinetic responses. Each
+transformation forms a distinct mediation pathway that can be studied,
+documented, and extended.
 
-**Current SRDMPA Phase**: [Select current phase]
-- [ ] **Speculate** - Forming research questions and hypotheses
-- [ ] **Research** - Literature review and background investigation
-- [ ] **Design** - Planning methodology and approach
-- [ ] **Make** - Implementing, building, or conducting research
-- [ ] **Publish** - Documenting and sharing results
-- [ ] **Assess** - Evaluating outcomes and planning next steps
+## **Goals**
 
-## 🚀 Quick Setup (Complete These Steps First)
+1.  Develop mediation pathways that translate biosignals into
+    audiovisual, tactile, and environmental outputs.
+2.  Establish bio-aware blended systems that function symmetrically
+    between human and AI participants.
+3.  Prototype the integration of physical, virtual, and conceptual
+    elements through BRPS.
+4.  Create an open framework for future research, art, and educational
+    applications within CHI.
 
-### 1. Set Up Project Board
-1. **Go to Projects tab** → **New project**
-2. **Select "CHI Research Template"** from organization templates (if available)
-   - OR manually create **Board layout** with columns: Backlog → In Progress → In Review → Done
-3. **Name**: `[Your Project Name] Research Progress`
-4. **Link this repository** to the project
+## **Project Phases**
 
-### 2. Update This README
-- [ ] Replace `[Project Title]` with your actual project name
-- [ ] Fill in your research focus and goals
-- [ ] Select your CHI meta-project connections
-- [ ] Choose your current SRDMPA phase
+  -----------------------------------------------------------------------
+  Phase             Focus                Description
+  ----------------- -------------------- --------------------------------
+  **Phase 1**       Core Prototype       Establishes the baseline system:
+                                         single or small set of
+                                         biosensors → data normalization
+                                         → audiovisual mediation.
 
-### 3. Create First Issues
-- [ ] **Milestone Issue**: Define your first major deliverable using the Milestone template
-- [ ] **Research Log Issue**: Start weekly progress tracking using Research Log template
-- [ ] **Label appropriately**: Use `01-speculate` through `06-assess` plus `activity-*` labels
+  **Phase 2**       Recursive Feedback   Introduces AI interpretation and
+                                         feedback, enabling adaptive or
+                                         emergent behavior.
 
-### 4. Follow Detailed Setup
-See [`docs/researcher-setup.md`](docs/researcher-setup.md) for complete configuration guide.
+  **Phase 3**       Full Deployment      Integrates robotics, spatialized
+                                         sound, and projection systems
+                                         within the BRPS environment.
 
----
+  **Phase 4**       Applied Extensions   Expands applications to
+                                         performance, therapy, education,
+                                         and distributed collaboration.
+  -----------------------------------------------------------------------
 
-## Project Overview
+## **System Architecture (Simplified Mediation Pathways)**
 
-**Research Focus**: [Brief description of your research question or project goals]
+**Cognitive Agent (Human)** → *(biosignal acquisition via sensors)* →
+**Mediation Pathway 1: Capture Layer** → *(LSL/OSC normalization)* →
+**Mediation Pathway 2: Data Layer** → *(Max/MSP + Jitter mapping)* →
+**Mediation Pathway 3: Transformative Layer (Audio/Visual/Physical
+Output)** → *(feedback)* → **Cognitive Agent**.
 
-**CHI Meta-Project Connection**: [List which CHI meta-projects this research contributes to]
-- [ ] META-Balanced-Blended-Space
-- [ ] META-Blended-Shadow-Puppet  
-- [ ] META-Collaborative-AI
-- [ ] META-International-Collaboration
-- [ ] META-Cultural-Popup-Experiences
-- [ ] META-Blended-Reality-Performance-System
-- [ ] Other: [Specify]
+**Computational Agent (AI)** → *(receives normalized biosignal data)* →
+**Mediation Pathway 4: Interpretation Layer (Machine Learning)** →
+*(modifies system state)* → **Mediation Pathway 5: Recursive Feedback
+Layer** → *(co-informs human and AI state)* → **Blended Environment**.
 
-**Current SRDMPA Phase**: [Select current phase]
-- [ ] **01-Speculate** - Forming research questions and hypotheses
-- [ ] **02-Research** - Literature review and background investigation
-- [ ] **03-Design** - Planning methodology and approach
-- [ ] **04-Make** - Implementing, building, or conducting research
-- [ ] **05-Publish** - Documenting and sharing results
-- [ ] **06-Assess** - Evaluating outcomes and planning next steps
+## **Technology Stack**
 
-## Getting Started
+-   **Sensors:** OpenBCI, Muse, Empatica E4, Polar H10, Apple Watch,
+    Fitbit, and camera-based biosensing.\
+-   **Middleware:** Lab Streaming Layer (LSL), Open Sound Control (OSC),
+    Bluetooth Low Energy (BLE), MQTT.\
+-   **Software:** Max/MSP + Jitter, TouchDesigner, Ableton Live,
+    Unity/Unreal (projection mapping).\
+-   **Environment:** BRPS immersive projection, multichannel audio,
+    robotic or kinetic interfaces.
 
-### Prerequisites
-- [List any software, hardware, or knowledge requirements]
-- [Include setup instructions for specialized tools]
+## **Repository Structure**
 
-### Getting Started
-1. **Clone this repository** and follow setup in `docs/researcher-setup.md`
-2. **Review project structure** in `docs/repository-structure.md`
-3. **Create your first milestone** using the Milestone issue template
-4. **Start research logging** with weekly Research Log issues
+    /BABS
+    │
+    ├── /docs                      # Research papers, proposals, phase overviews, BBS mediation pathway diagrams
+    │   ├── /meta                  # Meta-project structure, theoretical framing, BBS/BPRS alignment
+    │   └── /workflows             # Lab workflows, sprint plans, contribution guidelines
+    │
+    ├── /phase1_prototype          # Stage 1 MVP code & materials
+    │   ├── /max_patches           # Max/MSP + Jitter patches for biosignal mapping
+    │   ├── /projections           # Visual materials for projection sandbox
+    │   ├── /audio                 # Sound patches, test tones, spatial prototypes
+    │   └── /middleware_tests      # LSL/OSC/BLE connectivity demos
+    │
+    ├── /hardware                  # Sensor configuration & calibration
+    │   ├── /wearables             # Apple Watch, Fitbit, Oura documentation & scripts
+    │   ├── /research_sensors      # OpenBCI, Muse, Empatica, Polar
+    │   ├── /primitive_sensors     # Contact mics, piezos, mats
+    │   └── /camera_biosensing     # RGB/depth camera scripts & posture/respiration extraction
+    │
+    ├── /software                  # Scripts, utilities, and data-handling tools
+    │   ├── /lsl                   # Lab Streaming Layer setup & stream definitions
+    │   ├── /osc                   # OSC utilities, routing tables, bridge scripts
+    │   ├── /ble                   # Bluetooth Low Energy helpers
+    │   └── /ai_models             # Early ML classifiers (Phase 2+)
+    │
+    ├── /assets                    # Visual, audio, kinetic media used across phases
+    │   ├── /textures              # Gradients, noise fields, visualizers
+    │   ├── /video_loops           # Projection loops & motion overlays
+    │   └── /sound                 # Test tones, impulse responses, biosignal-linked tones
+    │
+    ├── /data                      # Biosignal logs & normalized examples
+    │   ├── /raw                   # Direct sensor streams (time-limited, non-sensitive)
+    │   ├── /normalized            # Cleaned & scaled data for mediation testing
+    │   └── /mapping_examples      # CSV/JSON showing bio → control mapping
+    │
+    └── README.md                  # You are here
 
-### Key Files to Update
-- [ ] **This README**: Replace placeholders with your project details
-- [ ] **CITATION.cff**: Update with your project information
-- [ ] **docs/research-notes/**: Add your initial research questions
-- [ ] **references/meta-projects.md**: Link to relevant CHI meta-projects
+## **Contributing**
 
-## Research Progress
+Researchers and students are encouraged to contribute to BABS as part of
+the **CHI meta-project ecosystem**. Each contribution should follow
+CHI's collaborative AI principles and BBS-aligned documentation
+standards: - Maintain transparency of mediation pathways. - Include
+calibration data and mapping logic. - Document all human--AI interaction
+modes.
 
-### Current Milestones
-[Use GitHub Issues with Milestone template to track major deliverables]
+## **Citation**
 
-### Recent Activity
-[Use Research Log issues to document weekly progress]
+If you use BABS materials in your research, please cite: \> Smith, D.
+(2025). *Bio-Aware Blended Spaces (BABS): A Balanced Blended Space
+Meta-Project.* Center for Holistic Integration, City Tech (CUNY).
 
-### AI Collaboration
-[Use AI Collaboration Report issues to track and evaluate AI tool usage]
+## **Contact**
 
-## Data and Analysis
-
-### Data Sources
-[Describe your data sources, collection methods, or experimental setup]
-
-### Key Findings
-[Update as your research progresses - link to notebooks, papers, or presentations]
-
-### Reproducibility
-[Instructions for reproducing your analysis - reference specific notebooks or scripts]
-
-## Repository Structure
-
-- **`data/`** - Research datasets (raw and processed)
-- **`src/`** - Source code and analysis functions
-- **`notebooks/`** - Jupyter notebooks organized by research phase
-- **`docs/`** - Documentation and research notes
-- **`references/`** - Literature, citations, and external resources
-- **`assets/`** - Figures, presentations, and media files
-
-For detailed explanations, see `docs/repository-structure.md`.
-
-## Contributing
-
-### For Collaborators
-[Instructions for team members joining the project]
-
-### For External Contributors
-See `CONTRIBUTING.md` for guidelines on contributing to this research project.
-
-## Citation
-
-If you use or reference this work, please cite:
-
-```bibtex
-[Your CITATION.cff file will generate the appropriate citation format]
-```
-
-See `CITATION.cff` for complete citation information.
-
-## License
-
-[Specify your license - update LICENSE file accordingly]
-
-## Contact
-
-**Researcher**: [Your name and contact information]  
-**Institution**: City University of New York - New York City College of Technology  
-**CHI Affiliation**: [Your role in the Center for Holistic Integration]  
-**Advisor/Supervisor**: [If applicable]
-
-## Acknowledgments
-
-- **CHI Community** - Center for Holistic Integration research ecosystem
-- **Meta-Project Leaders** - [Acknowledge relevant meta-project coordinators]
-- **AI Collaboration** - [Acknowledge AI tools used and their contribution]
-- **Funding/Support** - [Acknowledge grants, institutions, or other support]
-
----
-
-*This repository was created using the [CHI Research Template](https://github.com/CHI-CityTech/CHI-Research-Template) and follows CHI research methodology and standards.*
+**Project Director:** Dr. David B. Smith\
+Center for Holistic Integration (CHI) -- City Tech (CUNY)\
+📧 david.smith@citytech.cuny.edu\
+🌐 https://github.com/CHI-CityTech
