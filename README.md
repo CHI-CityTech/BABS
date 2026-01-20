@@ -137,6 +137,8 @@ Meta-Project.* Center for Holistic Integration, City Tech (CUNY).
 Center for Holistic Integration (CHI) -- City Tech (CUNY)\
 📧 david.smith@citytech.cuny.edu\
 🌐 https://github.com/CHI-CityTech
+
 **Lead Researcher:** Francky Duperval\
-📧 Francky.Duperval@mail.citytech.cuny.edu
+Class of 2028 -- City Tech (CUNY)\
+📧 Francky.Duperval@mail.citytech.cuny.edu\
 🌐 https://github.com/franckydup/Francky-Duperval
