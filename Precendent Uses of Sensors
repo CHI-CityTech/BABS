@@ -1,0 +1,193 @@
+# Pre-existing Uses
+
+- Biosensor signals are notoriously weak  
+  - EEG signals are in the microvolt range  
+  - Brain signals are hundreds of times weaker than static electricity from a couch  
+  - External factors such as flickering lights or power-line hum introduce artifacts
+
+- EEGs have been the most prevalent biosensor in biosensor art  
+  - Represent **55.9%** of all biosensor-driven Interactive Music Systems (IMSs) studied between 1965–2019
+
+- EMG is the second most prevalent biosensor, followed by ECG and EDA
+
+- EEG is widely adopted to achieve **incorporeal communication channels**  
+  - Controlling the physical world using the mind alone
+
+- The origin of bio-art dates to **1965**, with Alvin Lucier  
+  - First musical piece created using brainwaves  
+  - Used a medical EEG device to intentionally generate alpha waves  
+  - Controlled servo-motor actuators attached to musical instruments
+
+- Artists began exploring involuntary bodily changes (e.g., EDA)
+
+- Bio-art evolved into large-scale public installations  
+  - *Pulse Room*: captured audience heart rates and expressed them through incandescent lamps  
+  - *Pulse of the City* (2012): heart-shaped public installation
+
+- *Neurowear Cat Ears*: measure brainwaves related to relaxation and focus and animate ear movement
+
+- A taxonomy is needed to classify interactive systems based on sensor type and experiential outcome  
+  - Focuses on perceived user controllability and core signal properties
+
+- **High-control signals**  
+  - Linked to the somatic nervous system (voluntary movement)  
+  - Example: EMG  
+  - Can manipulate higher-level musical structures
+
+- **Low-control signals**  
+  - Linked to the sympathetic nervous system (fight-or-flight response)  
+  - Examples: ECG, EDA  
+  - Typically mapped to broad, ambient artistic changes reflecting arousal or stress
+
+- **Middle-control signals**  
+  - EEG captures a mix of controllable (e.g., blinking) and involuntary activity  
+  - Offers broad creative potential but is difficult to use reliably
+
+- Early bio-art often required highly controlled environments
+
+- **Generative responses** (prominent)  
+  - Automatically create entirely new content
+
+- **Transformative responses**  
+  - Modify or distort existing content  
+  - Example: changing music texture based on internal state
+
+- Biosensing is increasingly merging with **Immersive Virtual Reality (IVR)**
+
+- A contemporary challenge is integrating subtle, wearable biosensors with IVR  
+  - Goal: personalized, adaptive environments that respond to mood in real time
+
+- While biosensors in IVR are often used only for data collection, real-time biofeedback thrives in specific fields:  
+  - **Psychology** (~20%): mood-responsive environments, relaxation via breathing  
+  - **Medicine**: managing stress and pain during procedures
+
+- In IVR applications, the most common sensor is **heart rate** (**53.3%**)  
+  - Driven by ease of measurement, affordability, and non-intrusiveness
+
+- EEG is also used in IVR (**14.2%**)  
+  - Primarily for attention and concentration tasks in education, training, and psychology
+
+- Eye tracking is rarely used (**5.1%**) despite widespread hardware availability  
+  - Generates complex, high-volume data (pupil dilation, blink rate, fixation patterns)  
+  - Requires machine learning to interpret cognitive load or mood
+
+- Advances such as sensor miniaturization and smart textiles bring us closer to incorporeal communication channels
+
+- Combining biosensors with AI enables interpretation of complex data and real-time personalization  
+  - Example: games that automatically adjust difficulty based on stress or concentration
+
+- Shared, multi-participant biosensor-driven environments are beginning to emerge
+
+
+# Biosensors
+
+**Biosensor**: An integrated receptor–transducer device capable of converting a biological response into a measurable electrical signal.
+
+## Five Components of a Biosensor
+
+- **Analyte**: Substance of interest  
+- **Bioreceptor**: Recognizes the analyte (e.g., enzymes, antibodies, DNA)  
+- **Transducer**: Converts the biorecognition event into a measurable signal (electrical or optical)  
+- **Electronics**: Processes and amplifies the signal  
+- **Display**
+
+**“The Father of Biosensors”**: Leland Charles Clark Jr.  
+- Invented the first oxygen electrode in 1956
+
+## Three Generations of Biosensors
+
+- **First generation**  
+  - Measures analytes diffusing directly to the transducer  
+  - Mediator-less amperometric biosensors
+
+- **Second generation**  
+  - Incorporates mediators, auxiliary enzymes, co-reactants, or nanomaterials  
+  - Known as mediator amperometric biosensors
+
+- **Third generation**  
+  - Enables direct electron transfer between enzyme and electrode  
+  - No intermediate stages required
+
+## Types of Biosensors (by Bioreceptor)
+
+- Enzymatic biosensors  
+- Immunosensors (antigen–antibody interactions)  
+- Aptamer-based biosensors (synthetic nucleic acids)  
+- Whole-cell-based biosensors
+
+## Types of Biosensors (by Transducer)
+
+- **Electrochemical**  
+  - Measures voltage, current, or impedance  
+  - Includes potentiometric, amperometric, conductometric, impedimetric, and voltammetric sensors
+
+- **Optical**  
+  - Detects changes in light absorption, reflection, or fluorescence  
+  - Includes SPR-based, fluorescence-based, and optical fiber sensors
+
+- **Gravimetric (mass-based)**  
+  - Detects mass changes using QCM, piezoelectric, or magnetoelastic transducers
+
+- **Thermal**  
+  - Measures heat changes during biological reactions  
+  - Uses thermistors or thermopiles
+
+- **Electronic**  
+  - Often uses field-effect transistors (FETs)
+
+- **Acoustic**  
+  - Detects changes in acoustic wave properties due to mass absorption
+
+## Key Requirements for High Performance
+
+- High selectivity  
+- High sensitivity (ng/mL to fg/mL detection limits)  
+- Reproducibility  
+- Stability against environmental changes
+
+## Selection and Analysis Considerations
+
+- Define constructs of interest  
+  - Example: ECG/PPG for HR and HRV as indicators of arousal or regulation
+
+- Data collection context  
+  - Lab, clinical, or naturalistic settings affect sampling rate, battery life, and usability
+
+- Verification of accurate data capture  
+- Analytic validation (e.g., noise filtering and artifact removal)  
+- Clinical validation across diverse populations
+
+- Preprocessing requirements  
+  - Filtering  
+  - Artifact correction
+
+- Consider biological and social factors  
+  - Circulating sex hormones  
+  - Experiences of discrimination when interpreting biological variation by sex or ethnoracial identity
+
+
+# Works Cited
+
+Aly, L., Plácido da Silva, H., et al. (2021). **Appropriating Biosensors as Embodied Control Structures in Interactive Music Systems**. *Human Technology*, 17, 45–80. https://doi.org/10.17011/ht/urn.202106223978
+
+Aly, L., Penha, R., et al. (2018). **Biosensing in Interactive Art: A User-Centered Taxonomy**. https://doi.org/10.1007/978-3-319-08234-9_210-1
+
+Kim, D., & Kim, H. (2014). **Biosensor Interface: Interactive Media Art Using Biometric Data**. *International Journal of Bio-Science and Bio-Technology*, 6(1), 129–136. https://doi.org/10.14257/ijbsbt.2014.6.1.14
+
+Guillen-Sanz, H., et al. (2024). **A Systematic Review of Wearable Biosensor Usage in Immersive Virtual Reality Experiences**. *Virtual Reality*, 28(2), 74. https://doi.org/10.1007/s10055-024-00970-9
+
+Naresh, V., & Lee, N. (2021). **Nanostructured Materials-Enabled Biosensors**. *Sensors*, 21(4), 1109. https://doi.org/10.3390/s21041109
+
+Bhalla, N., et al. (2016). **Introduction to Biosensors**. *Essays in Biochemistry*, 60(1), 1–8. https://doi.org/10.1042/EBC
+
+Grasser, L. R. (2025). **Leveraging Biosensors in Clinical and Research Settings**. *NPP—Digital Psychiatry and Neuroscience*, 3(1), 17. https://doi.org/10.1038/s44277-025-00037-w
+
+ChooseMuse. (2025). **Muse 2 EEG Headband**. https://choosemuse.com/products/muse-2
+
+Male, S. (2023). **Augmented Reality and Physiometric Data**. The Logit Group. https://logitgroup.com/augmented-reality-and-physiometric-data/
+
+Mehrotra, P. (2016). **Biosensors and Their Applications**. *Journal of Oral Biology and Craniofacial Research*, 6(2), 153–159. https://doi.org/10.1016/j.jobcr.2015.12
+
+BalancedBlendedSpace. (2024). https://sites.google.com/view/balancedblendedspace/home  
+BalancedBlendedSpace – *Blended Reality Performance System*.  
+https://github.com/CHI-CityTech/Blended-Classroom
