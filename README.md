@@ -129,9 +129,9 @@ modes.
 
 ## **Citation**
 
-If you use BABS materials in your research, please cite: \> Smith, D.
+If you use BABS materials in your research, please cite: \> Smith, D, & Duperval, F.
 (2025). *Bio-Aware Blended Spaces (BABS): A Balanced Blended Space
-Meta-Project.* Center for Holistic Integration, City Tech (CUNY).
+Meta-Project.* Center for Holistic Integration, City Tech (CUNY).  
 
 ## **Contact**
 
