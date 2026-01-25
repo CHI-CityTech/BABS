@@ -20,6 +20,8 @@ rate, EEG, or movement into audiovisual or kinetic responses. Each
 transformation forms a distinct mediation pathway that can be studied,
 documented, and extended.
 
+### **Repository Scope**
+This repository contains public research materials, conceptual documentation, and academic prototypes related to the BABS meta-project.
 ## **Goals**
 
 1.  Develop mediation pathways that translate biosignals into
