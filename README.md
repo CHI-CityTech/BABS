@@ -1,6 +1,6 @@
 # **Bio-Aware Blended Spaces (BABS)**
 
-*A Meta-Project within the Center for Holistic Integration (CHI)*
+*A student-led Meta-Project developed collaboratively within the Center for Holistic Integration (CHI)*
 
 ## **Overview**
 
