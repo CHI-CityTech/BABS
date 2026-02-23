@@ -20,7 +20,10 @@ rate, EEG, or movement into audiovisual or kinetic responses. Each
 transformation forms a distinct mediation pathway that can be studied,
 documented, and extended.
 
-[The full initial proposal can be found here](https://github.com/CHI-CityTech/BABS/blob/main/proposals/Bio-Aware%20Blended%20Spaces%20full%20proposal.md)
+[The full initial proposal can be found here](https://github.com/CHI-CityTech/BABS/blob/main/proposals/Bio-Aware%20Blended%20Spaces%20full%20proposal.md)  
+  
+Check in the proposals folder ot this repository for current, future, and speculative opportunities.  More specifically:  
+[Potential research project areas](https://github.com/CHI-CityTech/BABS/blob/main/proposals/babs_potential_research_projects.md)
 
 ### **Repository Scope**
 This repository contains public research materials, conceptual documentation, and academic prototypes related to the BABS meta-project.
