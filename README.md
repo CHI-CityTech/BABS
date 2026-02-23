@@ -37,10 +37,10 @@ This repository contains public research materials, conceptual documentation, an
 
 | Phase | Focus | Description |
 |-------|-------|-------------|
-| **Phase 1** | Core Prototype | Establishes the baseline system: single or small set of biosensors → data normalization → audiovisual mediation. |
-| **Phase 2** | Recursive Feedback | Introduces AI interpretation and feedback, enabling adaptive or emergent behavior. |
-| **Phase 3** | Full Deployment | Integrates robotics, spatialized sound, and projection systems within the BRPS environment. |
-| **Phase 4** | Applied Extensions | Expands applications to performance, therapy, education, and distributed collaboration. |
+| **1** | Core Prototype | Establishes the baseline system: single or small set of biosensors → data normalization → audiovisual mediation. |
+| **2** | Recursive Feedback | Introduces AI interpretation and feedback, enabling adaptive or emergent behavior. |
+| **3** | Full Deployment | Integrates robotics, spatialized sound, and projection systems within the BRPS environment. |
+| **** | Applied Extensions | Expands applications to performance, therapy, education, and distributed collaboration. |
 
 ## **System Architecture (Simplified Mediation Pathways)**
 
