@@ -1,7 +1,5 @@
 # **Bio-Aware Blended Spaces (BABS): A Comprehensive Multi-Phase Meta-Project Proposal**
-October 07 2025
-Dr. David B. Smith
-Center for Holistic Integration
+October 07 2025, Dr. David B. Smith, Center for Holistic Integration
 
 ## **Introductory Summary**
 Bio-Aware Blended Spaces (BABS) is an integrative research and engineering system designed to explore how biosensory data can be transformed into responsive, immersive environments through structured mediation pathways. Built upon the Balanced Blended Space (BBS) framework and realized through the Blended Reality Performance System (BRPS), BABS bridges the gap between human physiological expression and computational responsiveness. 
