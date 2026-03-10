@@ -66,6 +66,28 @@ Advantages include sharper beat timing, more direct access to event structure, a
 
 This solution family includes modules such as AD8232-based or AD8233-based front ends, either as breakouts or evaluation boards.
 
+**Physical Implementation (Practical Prototype Configuration)**
+
+In typical maker implementations the AD8232 is **not the sensor itself**, but rather an analog front-end amplifier that conditions signals coming from skin electrodes. The sensing chain is therefore:
+
+ECG electrodes on body -> electrode lead wires -> AD8232 analog front end -> microcontroller analog input
+
+Typical electrode placement for experimental single-lead detection uses three adhesive electrodes placed approximately at:
+
+- right upper chest (RA)
+- left upper chest (LA)
+- lower torso reference (RL)
+
+The AD8232 breakout board (typically ~3 cm × 3 cm) is connected to a microcontroller such as an ESP32, Arduino, or RP2040 board using a small number of wires (power, ground, analog output, and optional lead-off detection pins).
+
+For experimental use the electronics may be arranged in one of three configurations:
+
+1. **Bench prototype configuration** — electrodes connected to a breadboard-mounted AD8232 and microcontroller for debugging and waveform inspection.
+2. **Wearable belt-pack configuration** — electrodes on the chest connected by short leads to a small enclosure containing the AD8232, microcontroller, and battery pack.
+3. **Body-mounted module configuration** — the sensing electronics mounted close to the electrodes in a compact enclosure to reduce motion noise.
+
+For the purposes of this project the second configuration (electrodes + small electronics enclosure worn on belt or pocket) is expected to provide the best balance between signal stability and experimental flexibility.
+
 ### B. Optical PPG-Based Detection
 Optical sensing detects blood-volume changes using light rather than the heart’s electrical event. A photoplethysmography module may be easier to wear or integrate in some contexts, but the resulting signal is usually more vulnerable to motion artifacts, contact inconsistency, and timing ambiguity when the goal is a precise downbeat pulse.
 
@@ -73,7 +95,20 @@ The signal chain is typically:
 
 optical sensor -> digital or analog pulse waveform -> peak detection -> refractory lockout -> digital pulse output
 
-This solution family includes MAX30102-class and related optical pulse modules.
+Representative modules include:
+
+- MAX30102 optical pulse / pulse-oximeter module
+- OpenBCI **PulseSensor** analog optical heart rate module
+
+The PulseSensor in particular is widely used in the maker and OpenBCI ecosystem because it provides a directly readable analog waveform that can be sampled easily by a microcontroller. However, because the optical pulse represents blood flow rather than the electrical heartbeat event, the signal often exhibits broader peaks and is more sensitive to finger movement or inconsistent pressure.
+
+In practice these sensors are commonly mounted on:
+
+- fingertip
+- earlobe
+- soft finger clip or foam pad
+
+While these sensors are easier to deploy than ECG electrodes, they are expected to produce less precise beat timing for impulse-generation purposes.
 
 ### C. Mechanical Pulse Sensing
 Mechanical approaches use vibration, pressure, or body-surface movement to infer pulse events. Piezo discs, force-sensitive resistors, and contact microphones have all been used experimentally in DIY contexts.
@@ -187,6 +222,7 @@ The inventory below is organized into core, comparative, measurement, output, an
 
 ### B. Optical Prototype Inventory
 - MAX30102 optical pulse sensor module or equivalent
+- OpenBCI PulseSensor module
 - Finger clip, foam mount, or soft fixture for stable contact
 - Second microcontroller if a parallel setup is preferred
 - Jumper wires and small mounting materials
@@ -296,3 +332,4 @@ This project proposes a disciplined first step within the broader Bio-Aware Blen
 The most likely outcome is that a single-lead ECG-based prototype will provide the clearest and most reliable route to a usable downbeat pulse. Even if later development expands toward richer temporal interpretation, this first prototype will establish the core transaction required for future BABS work: the conversion of a live physiological event into an assignable digital trigger within a modular bio-aware blended system.
 
 Embedded in BABS, the value of this work is not limited to heartbeat sensing alone. It serves as a concrete prototype for how physiological signals may enter a blended environment as event streams, be selectively assigned to specific subsystems, and participate in broader mediated interaction architectures without being mistaken for universal control sources.
+
