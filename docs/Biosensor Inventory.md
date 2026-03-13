@@ -27,3 +27,7 @@ EmotiBit: Small device that allows you to stream 16+ data streams from the body,
 [SparkFun Single Lead Heart Rate Monitor - AD8232](https://www.sparkfun.com/sparkfun-single-lead-heart-rate-monitor-ad8232.html)
 
 [Gravity: Analog Heart Rate Monitor Sensor (ECG) for Arduino](https://www.dfrobot.com/product-1510.html?srsltid=AfmBOoq1BpuSdFu_LLrlmtTFsL34FzDG_qaycBtbQmXRPkLagsjTjYhK)
+
+[Fermion: MAX30102 PPG Heart Rate and Oximeter Sensor (Breakout, I2C/UART)](https://www.dfrobot.com/product-2164.html?gad_source=1&gad_campaignid=23441887437&gbraid=0AAAAADucPlAUyzkz6g1be9rs6rDBg7YXh&gclid=CjwKCAjw687NBhB4EiwAQ645dphEQDB2RUKny0jXXB1syJDxg_lYUK2sTENtqDRFgFlAflrW2pg_XRoCw6QQAvD_BwE)
+
+[Piezo Element](https://www.sparkfun.com/piezo-element.html?gad_source=1&gad_campaignid=17479024039&gbraid=0AAAAADsj4ESps56nanGrEtixHX4BMPDLB&gclid=CjwKCAjw687NBhB4EiwAQ645dtLHM7JptRiWje4vcaalMOjMJy0maJPuJyFAkTWKAmtBf9ld75oygBoC9K8QAvD_BwE)
