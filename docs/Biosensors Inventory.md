@@ -25,3 +25,5 @@ EmotiBit: Small device that allows you to stream 16+ data streams from the body,
 [EmotiBit – OpenBCI Shop](https://shop.openbci.com/products/emotibit?variant=45567410274544)
 
 [SparkFun Single Lead Heart Rate Monitor - AD8232](https://www.sparkfun.com/sparkfun-single-lead-heart-rate-monitor-ad8232.html)
+
+[Gravity: Analog Heart Rate Monitor Sensor (ECG) for Arduino](https://www.dfrobot.com/product-1510.html?srsltid=AfmBOoq1BpuSdFu_LLrlmtTFsL34FzDG_qaycBtbQmXRPkLagsjTjYhK)
