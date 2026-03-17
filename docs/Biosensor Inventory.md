@@ -2,27 +2,11 @@ OpenBCI Ganglion Board: 4 channel biosensor amplifier. Used to boost signals fro
 
 [Ganglion Board (4-channels) – OpenBCI Shop](https://shop.openbci.com/products/ganglion-board?_pos=1&_sid=c752f9cf0&_ss=r)
 
-EEG(s):
-
-Headband EEG: EEG headband device. Compatible with Ganglion Board for real-time brainwave viewing and analysis. Includes a clip to secure an OpenBCI board case onto the headband strap, reducing motion artifacts and supporting cable management. Allows frontal cortex, temporal, parietal, and occipital measurements. 
-
-[OpenBCI EEG Headband Kit – OpenBCI Shop](https://shop.openbci.com/products/openbci-eeg-headband-kit)
-
-EEG Cap: EEG cap fitted with 19 Ag/AgCI electrodes (Coated and sintered variants) and labels. Electrode gel required that doesn't come with kit. Kit comes with electrodes, a syringe, and a cleaning brush. Cap features adjustable chinstrap for stability and reduction in movement artifacts.
-
-[EEG Electrode Cap Kit – OpenBCI Shop](https://shop.openbci.com/products/openbci-eeg-electrocap)
-
 Heart Rate: 
 
 Pulse Sensor: Plug-and-play heart-rate sensor for Arduino & OpenBCI. Capable of recording heart rate and heart rate variability (HRV) data
 
 [Pulse Sensor (Heart-Rate Monitor) – OpenBCI Shop](https://shop.openbci.com/products/pulse-sensor)
-
-Other Sensors:
-
-EmotiBit: Small device that allows you to stream 16+ data streams from the body, including PPG, EDA/GSR, 9-axis IMU, and body temperature.
-
-[EmotiBit – OpenBCI Shop](https://shop.openbci.com/products/emotibit?variant=45567410274544)
 
 SparkFun Single Lead Heart Rate Monitor:  a cost-effective board used to measure the electrical activity of the heart. This electrical activity can be charted as an ECG or Electrocardiogram and output as an analog reading. ECGs can be extremely noisy, the AD8232 Single Lead Heart Rate Monitor acts as an op amp to help obtain a clear signal from the PR and QT Intervals easily.
 
@@ -37,6 +21,12 @@ Fermion: MAX30102 PPG Heart Rate and Oximeter Sensor: The DFRobot heart rate and
 The MAX30102 uses PPG(PhotoPlethysmoGraphy) to measure data, which will be converted into heart rate and oximetry values when processed by the MCU, then output through I2C or UART, making the sensor easy to use and greatly reducing resource occupation of main controller. Meanwhile, the corresponding upper computer is provided to allow you to conveniently read data by a PC.
 
 [Fermion: MAX30102 PPG Heart Rate and Oximeter Sensor (Breakout, I2C/UART)](https://www.dfrobot.com/product-2164.html?gad_source=1&gad_campaignid=23441887437&gbraid=0AAAAADucPlAUyzkz6g1be9rs6rDBg7YXh&gclid=CjwKCAjw687NBhB4EiwAQ645dphEQDB2RUKny0jXXB1syJDxg_lYUK2sTENtqDRFgFlAflrW2pg_XRoCw6QQAvD_BwE)
+
+Other Sensors:
+
+EmotiBit: Small device that allows you to stream 16+ data streams from the body, including PPG, EDA/GSR, 9-axis IMU, and body temperature.
+
+[EmotiBit – OpenBCI Shop](https://shop.openbci.com/products/emotibit?variant=45567410274544)
 
 Piezo Element: Piezo elements come in handy when you need to detect vibration or a knock. You can use these for tap or knock sensors pretty easily by reading the voltage on the output. They can also be used for a very small audio transducer such as a buzzer.
 
