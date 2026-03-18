@@ -9,16 +9,19 @@ OpenBCI Ganglion Board: 4 channel biosensor amplifier. Used to boost signals fro
 [Pulse Sensor (Heart-Rate Monitor) – OpenBCI Shop](https://shop.openbci.com/products/pulse-sensor)
 Pulse Sensor: Plug-and-play heart-rate sensor for Arduino & OpenBCI. Capable of recording heart rate and heart rate variability (HRV) data
 
-[SparkFun Single Lead Heart Rate Monitor - AD8232](https://www.sparkfun.com/sparkfun-single-lead-heart-rate-monitor-ad8232.html)
-SparkFun Single Lead Heart Rate Monitor:  a cost-effective board used to measure the electrical activity of the heart. This electrical activity can be charted as an ECG or Electrocardiogram and output as an analog reading. ECGs can be extremely noisy, the AD8232 Single Lead Heart Rate Monitor acts as an op amp to help obtain a clear signal from the PR and QT Intervals easily.
+[SparkFun Eval Board for AD8232](https://www.digikey.com/en/products/detail/sparkfun-electronics/12650/5824153)
 
+EVAL BOARD FOR AD8232. AD8232 - Analog Front End (AFE) for ECG, EKG Interface Evaluation Board
+Used for the SparkFun Single Lead Heart Rate Monitor:  a cost-effective board used to measure the electrical activity of the heart. This electrical activity can be charted as an ECG or Electrocardiogram and output as an analog reading. ECGs can be extremely noisy, the AD8232 Single Lead Heart Rate Monitor acts as an op amp to help obtain a clear signal from the PR and QT Intervals easily.
 
-[Gravity: Analog Heart Rate Monitor Sensor (ECG) for Arduino](https://www.dfrobot.com/product-1510.html?srsltid=AfmBOoq1BpuSdFu_LLrlmtTFsL34FzDG_qaycBtbQmXRPkLagsjTjYhK)
+[SEN0213 DF Robot Eval Board](https://www.digikey.com/en/products/detail/dfrobot/SEN0213/6588616)
+	
+GRAVITY: HEART RATE MONITOR SENS. AD8232 Heart Rate Sensor Gravity Platform Evaluation Expansion Board
 Gravity Analog Heart Rate Monitor Sensor (ECG): The DFRobot Heart Rate Monitor Sensor is used to measure the electrical activity of the heart. This electrical activity can be charted as an ECG and output as an analog reading. An ECG signal can be extremely noisy so we have included an AD8232 chip which will generate a clear signal from the PR and QT Intervals. Using the Arduino IDE "Serial Plotter" feature,  you are also able to view plotted ECG output on  PC!
 
-[Fermion: MAX30102 PPG Heart Rate and Oximeter Sensor (Breakout, I2C/UART)](https://www.dfrobot.com/product-2164.html?gad_source=1&gad_campaignid=23441887437&gbraid=0AAAAADucPlAUyzkz6g1be9rs6rDBg7YXh&gclid=CjwKCAjw687NBhB4EiwAQ645dphEQDB2RUKny0jXXB1syJDxg_lYUK2sTENtqDRFgFlAflrW2pg_XRoCw6QQAvD_BwE)
+[SEN0344 Oximeter/Heart Rate Sensor](https://www.digikey.com/en/products/detail/dfrobot/SEN0344/13590869?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLlihcsD_R9E_hMHSTpbWhC5WX&gclid=Cj0KCQjwmunNBhDbARIsAOndKpn3_TNb_ki67eKfKLwLUSA2DXYBnWuAmcrQXRXbQA70mDgQp_kfjzYaAkNnEALw_wcB)
 
-Fermion: MAX30102 PPG Heart Rate and Oximeter Sensor: The DFRobot heart rate and oximeter sensor integrates the Maxim MAX30102 chip and an MCU with heart rate and oximetry algorithm.
+SENSOR - OXIMETER/HEART RATE I2C. Oximeter/Heart Rate Sensor I2C Output. Fermion: MAX30102 PPG Heart Rate and Oximeter Sensor: The DFRobot heart rate and oximeter sensor integrates the Maxim MAX30102 chip and an MCU with heart rate and oximetry algorithm.
 
 The MAX30102 uses PPG(PhotoPlethysmoGraphy) to measure data, which will be converted into heart rate and oximetry values when processed by the MCU, then output through I2C or UART, making the sensor easy to use and greatly reducing resource occupation of main controller. Meanwhile, the corresponding upper computer is provided to allow you to conveniently read data by a PC.
 
