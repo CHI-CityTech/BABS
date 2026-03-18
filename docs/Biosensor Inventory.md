@@ -6,8 +6,9 @@ OpenBCI Ganglion Board: 4 channel biosensor amplifier. Used to boost signals fro
 
 ## Heart Rate: 
 
-[Pulse Sensor (Heart-Rate Monitor) – OpenBCI Shop](https://shop.openbci.com/products/pulse-sensor)
-Pulse Sensor: Plug-and-play heart-rate sensor for Arduino & OpenBCI. Capable of recording heart rate and heart rate variability (HRV) data
+[11574 Pulse Sensor for Ardiuno](https://www.digikey.com/en/products/detail/sparkfun-electronics/11574/5762397?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgJxIX_q1Ch_WQBQzOEANxik&gclid=Cj0KCQjwmunNBhDbARIsAOndKpkUcdGECTpZ1MuYiN1XAbcPhYoVjesTzIy8qdpacj39XsMXM-5isfoaAt1xEALw_wcB)
+
+PULSE SENSOR FOR ARDUINO. Pulse Sensor: Plug-and-play heart-rate sensor for Arduino & OpenBCI. Capable of recording heart rate and heart rate variability (HRV) data
 
 [SparkFun Eval Board for AD8232](https://www.digikey.com/en/products/detail/sparkfun-electronics/12650/5824153)
 
